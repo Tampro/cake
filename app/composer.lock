@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a05294b95dd0299877cdad34989c5834",
+    "content-hash": "8abd5a8bb989a085106fafb459ef3bf7",
     "packages": [
         {
             "name": "cakephp/cakephp",
@@ -5869,6 +5869,108 @@
                 }
             ],
             "time": "2020-10-27T19:28:23+00:00"
+        },
+        {
+            "name": "vierge-noire/cakephp-test-migrator",
+            "version": "v2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vierge-noire/cakephp-test-migrator.git",
+                "reference": "dfe8d18a7e38704faf3da9c7ab6a436b8c8d6c82"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vierge-noire/cakephp-test-migrator/zipball/dfe8d18a7e38704faf3da9c7ab6a436b8c8d6c82",
+                "reference": "dfe8d18a7e38704faf3da9c7ab6a436b8c8d6c82",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/migrations": "^3.0",
+                "vierge-noire/cakephp-test-suite-light": "^2.1"
+            },
+            "require-dev": {
+                "josegonzalez/dotenv": "dev-master",
+                "phpstan/phpstan": "^0.12.48@dev",
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CakephpTestMigrator\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Juan Pablo Ramirez",
+                    "email": "pabloelcolombiano@gmail.com"
+                }
+            ],
+            "description": "Migration helper for the CakePHP Test Suite Light",
+            "support": {
+                "issues": "https://github.com/vierge-noire/cakephp-test-migrator/issues",
+                "source": "https://github.com/vierge-noire/cakephp-test-migrator/tree/v2.1.1"
+            },
+            "time": "2020-12-01T11:51:52+00:00"
+        },
+        {
+            "name": "vierge-noire/cakephp-test-suite-light",
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vierge-noire/cakephp-test-suite-light.git",
+                "reference": "2283f538cfd0e49509e6665afb795121234bd638"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vierge-noire/cakephp-test-suite-light/zipball/2283f538cfd0e49509e6665afb795121234bd638",
+                "reference": "2283f538cfd0e49509e6665afb795121234bd638",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": "^4.0",
+                "ext-pdo": "*",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "cakephp/migrations": "^3.0",
+                "josegonzalez/dotenv": "dev-master",
+                "phpstan/phpstan": "^0.12.48@dev",
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "CakephpTestSuiteLight\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Masson",
+                    "email": "nicolas@b-projects.tech"
+                },
+                {
+                    "name": "Juan Pablo Ramìrez",
+                    "email": "pabloelcolombiano@gmail.com"
+                }
+            ],
+            "description": "A test suite for CakePHP application based on Sql queries",
+            "keywords": [
+                "cakephp",
+                "test"
+            ],
+            "support": {
+                "issues": "https://github.com/vierge-noire/cakephp-test-suite-light/issues",
+                "source": "https://github.com/vierge-noire/cakephp-test-suite-light/tree/v2.1.0"
+            },
+            "time": "2020-11-25T21:46:07+00:00"
         },
         {
             "name": "webmozart/assert",

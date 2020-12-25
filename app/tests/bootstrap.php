@@ -50,3 +50,6 @@ ConnectionManager::alias('test_debug_kit', 'debug_kit');
 // does not allow the sessionid to be set after stdout
 // has been written to.
 session_id('cli');
+\CakephpTestMigrator\Migrator::migrate([
+    ['connection' => 'test']
+ ]);
