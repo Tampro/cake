@@ -4,13 +4,15 @@ pipeline {
         stage('Build') { 
             steps {
                 // 
-                echo "Building"
+                //echo "Building"
+                sh 'composer install --no-interaction'
             }
         }
         stage('Test') { 
             steps {
                 // 
-                echo "Testing"
+                //echo "Testing"
+                sh './vendor/bin/phpunit'
             }
         }
         stage('Deploy') { 
